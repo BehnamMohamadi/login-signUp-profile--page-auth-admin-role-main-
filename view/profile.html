@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile</title>
+  <!-- <link rel="stylesheet" href="../public/style/profile.css" /> -->
+  <link rel="stylesheet" href="/style/stylesheets/modal.css" />
+  <link rel="stylesheet" href="/style/profile.css" />
+  <!-- Font Awesome CDN link for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- The Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <header class="modal-header">
+        <span class="close">&times;</span>
+        <h2>DEFAULT</h2>
+      </header>
+
+      <!-- Modal Body -->
+      <main class="modal-body"></main>
+
+      <!-- Modal Footer -->
+      <footer class="modal-footer"></footer>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="imgProfilePart">
+      <img class="profileImage" src="/images/profile.png" alt="user profile" />
+    </div>
+
+    <h1 class="userNameTitle">{%username%}</h1>
+
+    <p class="title">
+      FirstName:
+      <span class="firstNameTitle">{%firstname%}</span>
+    </p>
+
+    <p class="title">
+      LastName:
+      <span class="lastNameTitle"> {%lastname%}</span>
+    </p>
+
+    <p class="title">
+      Gender:
+      <span class="genderTitle"> {%gender%}</span>
+    </p>
+
+    <div class="btnPart">
+      <button id="update-button">Update</button>
+      <button id="log-out-button">Log Out</button>
+    </div>
+  </div>
+  <script src="/javascript/profile.js"></script>
+  <!-- <script src="../public/javascript/profile.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 5rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  background: #1abc9c;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.title {
+  color: rgb(20, 19, 19);
+  font-size: 18px;
+}
+
+.profileImage {
+  width: 60%;
+  padding: 1rem;
+  height: 80%;
+  border-radius: 100%;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background: #034a3c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  width: 33%;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
